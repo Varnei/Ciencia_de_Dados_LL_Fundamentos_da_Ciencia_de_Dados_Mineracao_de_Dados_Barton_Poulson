@@ -1,0 +1,37 @@
+Conjunto de dados "Default of Credit Card Clients" (Inadimplência de clientes de cartão de crédito) 
+=======================================
+
+Extraído do Machine Learning Repository da UCI
+http://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+
+Origem:
+Nome: I-Cheng Yeh 
+Endereços de e-mail: (1) icyeh '@' chu.edu.tw (2) 140910 '@' mail.tku.edu.tw 
+Instituições: (1) Departmento de Gestão da Informação, Universidade Chung Hua, Taiwan. (2) Departmento de Engenharia Civil, Universidade Tamkang, Taiwan. 
+Outras informações de contato: 886-2-26215656, ramal 3181 
+
+Informações sobre o conjunto de dados:
+Esta pesquisa foi direcionada a casos de inadimplência de clientes em Taiwan e compara a precisão da previsão da probabilidade de inadimplência entre seis métodos de mineração de dados. Da perspectiva do gerenciamento de riscos, o resultado da precisão da previsão da probabilidade estimada de inadimplência é mais valioso do que o resultado binário da classificação – clientes confiáveis ou não confiáveis. Como a probabilidade real de inadimplência é desconhecida, este estudo apresentou o inovador "Sorting Smoothing Method" (método de suavização da ordenação) para estimar a probabilidade real de inadimplência. Com a probabilidade real de inadimplência como variável-resposta (Y) e a previsão da probabilidade de inadimplência como variável independente (X), o resultado da regressão linear simples (Y = A + BX) mostra que o modelo de previsão gerado pela rede neural artificial tem o maior coeficiente de determinação; sua interseção na regressão (A) é próxima de zero, e o coeficiente de regressão (B) é perto de um. Portanto, entre as seis técnicas de mineração de dados, a rede neural artificial é a única capaz de estimar com precisão a probabilidade real de inadimplência.
+
+Informações sobre os atributos:
+Esta pesquisa empregou uma variável binária, default payment, ou inadimplência de pagamento (Sim = 1, Não = 0), como variável-resposta. Este estudo fez uma revisão de literatura e utilizou as 23 variáveis a seguir como variáveis explicativas: 
+X1: Valor do crédito concedido (em novos dólares taiwaneses): inclui o crédito individual ao consumidor e o crédito (complementar) à família. 
+X2: Sexo (1 = masculino; 2 = feminino). 
+X3: Nível de escolaridade (1 = pós-graduação; 2 = superior completo; 3 = ensino médio; 4 = outros). 
+X4: Estado civil (1 = casado; 2 = solteiro; 3 = outros). 
+X5: Idade (anos). 
+X6 – X11: Histórico de pagamentos anteriores. Rastreamos os últimos registros mensais de pagamento (de abril a setembro de 2005) da seguinte forma: X6 = situação da liquidação da dívida em setembro de 2005; X7 = situação da liquidação da dívida em agosto de 2005; . . .;X11 = situação da liquidação da dívida em abril de 2005. A escala de medida usada na situação da liquidação da dívida é: -1 = pagamento em dia; 1 = atraso de um mês no pagamento; 2 = atraso de dois meses no pagamento; . . .; 8 = atraso de oito meses no pagamento; 9 = atraso de nove meses ou mais no pagamento. 
+X12–X17: Valor da fatura (em novos dólares taiwaneses). X12 = valor da fatura em setembro de 2005; X13 = valor da fatura em agosto de 2005; . . .; X17 = valor da fatura em abril de 2005. 
+X18–X23: Valor do pagamento anterior (em novos dólares taiwaneses). X18 = valor pago em setembro de 2005; X19 = valor pago em agosto de 2005; . . .; X23 = valor pago em abril de 2005. 
+
+Artigos relevantes:
+Yeh, I. C., & Lien, C. H. (2009). The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients. Expert Systems with Applications, 36(2), 2473-2480.
+
+Solicitação de citação:
+Yeh, I. C., & Lien, C. H. (2009). The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients. Expert Systems with Applications, 36(2), 2473-2480.
+
+=======================================
+
+Nota de Barton Poulson:
+Retirei o cabeçalho que continha os nomes de variáveis de "X1" a "X25" e deixei o nome completo das variáveis. Também converti o arquivo de XLS em CSV e o renomeei como "ccdefault.csv".
+

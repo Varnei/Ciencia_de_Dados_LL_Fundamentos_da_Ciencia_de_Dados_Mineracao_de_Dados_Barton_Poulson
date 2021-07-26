@@ -1,0 +1,69 @@
+Estes dados foram coletados (c. 2012) por meio de um teste de personalidade on-line e interativo. Os participantes foram avisados de que suas respostas seriam registradas e usadas para pesquisa no início do teste e confirmaram o consentimento ao final do teste.
+
+Os itens a seguir foram classificados em uma escala de 1 a 5 pontos em que 1 = Discordo, 3 = Neutro, 5 = Concordo (0 = ausente). Todos foram apresentados em uma página na sequência E1, N2, A1, C1, O1, E2... 
+
+E1	I am the life of the party.
+E2	I don't talk a lot.
+E3	I feel comfortable around people.
+E4	I keep in the background.
+E5	I start conversations.
+E6	I have little to say.
+E7	I talk to a lot of different people at parties.
+E8	I don't like to draw attention to myself.
+E9	I don't mind being the center of attention.
+E10	I am quiet around strangers.
+N1	I get stressed out easily.
+N2	I am relaxed most of the time.
+N3	I worry about things.
+N4	I seldom feel blue.
+N5	I am easily disturbed.
+N6	I get upset easily.
+N7	I change my mood a lot.
+N8	I have frequent mood swings.
+N9	I get irritated easily.
+N10	I often feel blue.
+A1	I feel little concern for others.
+A2	I am interested in people.
+A3	I insult people.
+A4	I sympathize with others' feelings.
+A5	I am not interested in other people's problems.
+A6	I have a soft heart.
+A7	I am not really interested in others.
+A8	I take time out for others.
+A9	I feel others' emotions.
+A10	I make people feel at ease.
+C1	I am always prepared.
+C2	I leave my belongings around.
+C3	I pay attention to details.
+C4	I make a mess of things.
+C5	I get chores done right away.
+C6	I often forget to put things back in their proper place.
+C7	I like order.
+C8	I shirk my duties.
+C9	I follow a schedule.
+C10	I am exacting in my work.
+O1	I have a rich vocabulary.
+O2	I have difficulty understanding abstract ideas.
+O3	I have a vivid imagination.
+O4	I am not interested in abstract ideas.
+O5	I have excellent ideas.
+O6	I do not have a good imagination.
+O7	I am quick to understand things.
+O8	I use difficult words.
+O9	I spend time reflecting on things.
+O10	I am full of ideas.
+
+Na página seguinte, os seguintes valores foram coletados.
+
+race (raça)	Selecionada em um menu suspenso. 1 = Raça Mista, 2 = Ártico (siberiano, esquimó), 3 = Caucasiano (europeu), 4 = Caucasiano (indiano), 5 = Caucasiano (Oriente Médio), 6 = Caucasiano (África do Norte, outro), 7 = Indígena australiano, 8 = Nativo norte-americano, 9 = Nordeste da Ásia (mongol, tibetano, coreano japonês, etc.), 10 = Pacífico (polinésio, micronesiano, etc.), 11 = Sudeste da Ásia (chinês, tailandês, malaio, filipino, etc.), 12 = África Ocidental, bosquímanos, etíope, 13 = Outros (0 = ausente)
+age (idade)	inserida como texto (pessoas que relataram idade < 13 não foram registradas)
+engnat		Resposta à pergunta "o inglês é seu idioma nativo?". 1 = sim, 2 = não (0 = ausente)
+gender (sexo)	Selecionado em um menu suspenso. 1 = Masculino, 2 = Feminino, 3 = Outro (0 = ausente)
+hand (mão)	"Com que mão você escreve?" 1 = Direita, 2 = Esquerda, 3 = Ambas (0 = ausente)
+
+Nesta página, também foi solicitado aos usuários que confirmassem que suas respostas eram precisas e poderiam ser usadas para pesquisa. As respostas dos participantes que não confirmaram não foram registradas.
+
+Alguns valores foram calculados com base em informações técnicas.
+
+country (país)	A localização técnica do participante. Código do país segundo a ISO.
+source (origem)	Como o participante chegou ao teste. Com base no referenciador de HTTP. 1 = de outra página no site do teste, 2 = do Google, 3 = do Facebook, 4 = de qualquer URL com ".edu" no nome do domínio (por exemplo: xxx.edu, xxx.edu.au), 6 = de outra origem, ou referenciador de HTTP não fornecido.
